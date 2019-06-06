@@ -1,0 +1,11 @@
+D:\Aplikacje\Task\DateProgram\DateProgramTests\bin\Debug\DateProgramTests.dll
+D:\Aplikacje\Task\DateProgram\DateProgramTests\bin\Debug\DateProgramTests.pdb
+D:\Aplikacje\Task\DateProgram\DateProgramTests\bin\Debug\DateProgram.exe
+D:\Aplikacje\Task\DateProgram\DateProgramTests\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+D:\Aplikacje\Task\DateProgram\DateProgramTests\bin\Debug\DateProgram.pdb
+D:\Aplikacje\Task\DateProgram\DateProgramTests\bin\Debug\DateProgram.exe.config
+D:\Aplikacje\Task\DateProgram\DateProgramTests\obj\Debug\DateProgramTests.csprojAssemblyReference.cache
+D:\Aplikacje\Task\DateProgram\DateProgramTests\obj\Debug\DateProgramTests.csproj.CoreCompileInputs.cache
+D:\Aplikacje\Task\DateProgram\DateProgramTests\obj\Debug\DateProgramTests.csproj.CopyComplete
+D:\Aplikacje\Task\DateProgram\DateProgramTests\obj\Debug\DateProgramTests.dll
+D:\Aplikacje\Task\DateProgram\DateProgramTests\obj\Debug\DateProgramTests.pdb
