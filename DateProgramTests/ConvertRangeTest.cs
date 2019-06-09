@@ -62,8 +62,7 @@ namespace DateProgram.Tests
       {
          DateConverter date = new DateConverter("01.02.199", "02.02.1996");
          bool validationCorrectly = false;
-         if(!date.Validate(out List<string> messages))
-         {
+         date.Validate(out List<string> messages);
             foreach(string message in messages)
             {
                if(message== "Invalid format of first date.")
@@ -71,8 +70,6 @@ namespace DateProgram.Tests
                   validationCorrectly = true;
                }
             }
-         }
-
          Assert.IsTrue(validationCorrectly);
       }
 
@@ -81,8 +78,7 @@ namespace DateProgram.Tests
       {
          DateConverter date = new DateConverter("01.02.1996", "02.02.199");
          bool validationCorrectly = false;
-         if (!date.Validate(out List<string> messages))
-         {
+         date.Validate(out List<string> messages);
             foreach (string message in messages)
             {
                if (message == "Invalid format of second date.")
@@ -90,7 +86,6 @@ namespace DateProgram.Tests
                   validationCorrectly = true;
                }
             }
-         }
 
          Assert.IsTrue(validationCorrectly);
       }
@@ -100,14 +95,21 @@ namespace DateProgram.Tests
       {
          DateConverter date = new DateConverter("01.02.199", "02.02.199");
          bool validationCorrectly = false;
-         if (!date.Validate(out List<string> messages))
-         {
+         date.Validate(out List<string> messages);
             if (messages.Count == 2)
             {
                validationCorrectly = true;
             }
-         }
 
+         Assert.IsTrue(validationCorrectly);
+      }
+      [TestMethod()]
+      public void ValidateResultTrueTest()
+      {
+         DateConverter date = new DateConverter("01.02.1992", "02.02.1993");
+         bool validationCorrectly = false;
+         validationCorrectly = date.Validate(out List<string> messages);
+        
          Assert.IsTrue(validationCorrectly);
       }
    }
