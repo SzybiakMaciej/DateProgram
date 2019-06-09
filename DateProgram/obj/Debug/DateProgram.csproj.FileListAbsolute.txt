@@ -1,7 +1,6 @@
 D:\Aplikacje\Task\DateProgram\DateProgram\bin\Debug\DateProgram.exe.config
 D:\Aplikacje\Task\DateProgram\DateProgram\bin\Debug\DateProgram.exe
 D:\Aplikacje\Task\DateProgram\DateProgram\bin\Debug\DateProgram.pdb
-D:\Aplikacje\Task\DateProgram\DateProgram\obj\Debug\DateProgram.csprojAssemblyReference.cache
 D:\Aplikacje\Task\DateProgram\DateProgram\obj\Debug\DateProgram.csproj.CoreCompileInputs.cache
 D:\Aplikacje\Task\DateProgram\DateProgram\obj\Debug\DateProgram.exe
 D:\Aplikacje\Task\DateProgram\DateProgram\obj\Debug\DateProgram.pdb

@@ -51,8 +51,7 @@
     </Otherwise>
   </Choose>
   <ItemGroup>
-    <Compile Include="DateConverterTests.cs" />
-    <Compile Include="ProgramTests.cs" />
+    <Compile Include="ConvertRangeTest.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
